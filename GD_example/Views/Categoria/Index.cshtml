@@ -1,0 +1,35 @@
+﻿@model List<Categoria>
+
+<h1>Categoria</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre Producto
+            </th>
+            <ht>
+                Nombre Categoria
+            </ht>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var categoria in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => categoria.Nombre)
+                    </td>
+                    <td>
+                        @* @Html.DisplayFor(m => categoria.Productos.Nombre)  *@
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+
+
+
+
+</table>

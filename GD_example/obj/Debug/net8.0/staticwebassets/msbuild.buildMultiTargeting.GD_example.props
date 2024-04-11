@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GD_example.props" />
+</Project>
